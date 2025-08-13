@@ -1,0 +1,28 @@
+# Configurações do Dashboard ONS
+# Copie este arquivo para .env e configure suas variáveis
+
+# Configurações do MongoDB
+MONGODB_URI=mongodb://localhost:27017/
+MONGODB_DATABASE=ons_data
+MONGODB_COLLECTION=historico_oficial
+
+# Configurações da API ONS (se aplicável)
+ONS_API_URL=https://api.ons.org.br
+ONS_API_KEY=your_api_key_here
+
+# Configurações da Copel
+COPEL_API_URL=https://api.copel.com
+COPEL_API_KEY=your_copel_api_key_here
+
+# Configurações do Dashboard
+DASHBOARD_PORT=5000
+DASHBOARD_HOST=0.0.0.0
+DASHBOARD_DEBUG=False
+
+# Configurações de Log
+LOG_LEVEL=INFO
+LOG_FILE=dashboard.log
+
+# Configurações de Cache
+CACHE_TTL=300
+CACHE_ENABLED=True
